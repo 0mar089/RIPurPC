@@ -56,14 +56,18 @@ Key techniques that helped reduce detection:
 
 ## Project Structure
 
+`
+```text
 Ransom/
 └── src/
-├── api.c / api.h - Windows API wrappers (dynamic loading, hashing)
-├── arrays.c - Array utilities (byte manipulation, encoding)
-├── crypto.c / crypto.h - Cryptographic operations (AES-256 + RSA-2048)
-├── files.c / files.h - File system traversal and manipulation
-├── main.c - Entry point
-└── obfuscate.c / obfuscate.h - String obfuscation and anti-analysis
+    ├── api.c / api.h - Windows API wrappers (dynamic loading, hashing)
+    ├── arrays.c - Array utilities (byte manipulation, encoding)
+    ├── crypto.c / crypto.h - Cryptographic operations (AES-256 + RSA-2048)
+    ├── files.c / files.h - File system traversal and manipulation
+    ├── main.c - Entry point
+    └── obfuscate.c / obfuscate.h - String obfuscation and anti-analysis
+```
+`
 
 ### Module breakdown
 
