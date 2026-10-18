@@ -56,7 +56,6 @@ Key techniques that helped reduce detection:
 
 ## Project Structure
 
-`
 ```text
 Ransom/
 └── src/
@@ -67,7 +66,6 @@ Ransom/
     ├── main.c - Entry point
     └── obfuscate.c / obfuscate.h - String obfuscation and anti-analysis
 ```
-`
 
 ### Module breakdown
 
